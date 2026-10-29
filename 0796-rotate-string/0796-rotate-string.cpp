@@ -8,4 +8,4 @@ public:
         else return false;
     }
 };
-// Not found → returns string::npos.
+// Not found → returns string::npos
