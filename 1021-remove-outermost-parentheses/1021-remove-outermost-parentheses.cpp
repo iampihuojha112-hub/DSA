@@ -21,3 +21,7 @@ public:
         return ans;
     }
 };
+
+//for opening bracket-If count is zero, it means this is the outermost opening bracket, so we skip it.  Otherwise, we add it to the answer.
+
+//for closing bracket - We first decrease the count.If it becomes zero, this is the outermost closing bracket, so we skip it. Otherwise, we add it.
