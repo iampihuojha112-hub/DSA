@@ -19,3 +19,5 @@ public:
         return st.empty();
     }
 };
+//Opening bracket → only push.
+//Closing bracket → check empty, match, and pop.
